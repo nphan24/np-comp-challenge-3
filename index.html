@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  </head>
+  <body>
+    <section class="body-to-flex">
+      <aside class="sidebar">
+        <img src="images/me.jpg" class="my-pic" alt="a picture of me holding a monkey.">
+        <h4>Ngoc Phan</h4>
+        <hr>
+        <ul class="main">Main
+          <li class="left-texts"><i class="fas fa-home" id="aside-icons" aria-hidden="true"></i>HOME</li>
+          <li class="left-texts"><i class="fas fa-briefcase" id="aside-icons" aria-hidden="true"></i>JOB</li>
+          <li class="left-texts"><i class="far fa-file-alt" id="aside-icons" aria-hidden="true"></i>RESUMES</li>
+          <li class="left-texts"><i class="far fa-clipboard" id="aside-icons" aria-hidden="true"></i>TASK</li>
+          <li class="left-texts"><i class="far fa-calendar-alt" id="aside-icons" aria-hidden="true"></i>CALENDAR</li>
+        </ul>
+        <hr>
+        <ul class="admin">Admin
+          <li class="left-texts"><i class="fas fa-users" id="aside-icons" aria-hidden="true"></i>USERS</li>
+          <li class="left-texts"><i class="fas fa-map-marker" id="aside-icons" aria-hidden="true"></i>LOCATION</li> 
+          <li class="left-texts"><i class="fas fa-code-branch" id="aside-icons" aria-hidden="true"></i>WORKFLOWS</li>
+          <li class="left-texts"><i class="fas fa-paste" id="aside-icons" aria-hidden="true"></i>JOB BOARDS</li>
+          <li class="left-texts"><i class="fas fa-comments" id="aside-icons" aria-hidden="true"></i>SOCIAL</li>
+        </ul>
+        <hr>
+        <ul class="categories">Categories
+          <li class="checkbox"><button class="administrative"></button>Administrative</li>
+          <li class="checkbox"><button class="design"></button>Design</li>
+          <li class="checkbox"><button class="executive"></button>Executive</li>
+          <li class="checkbox"><button class="human-resources"></button>Human Resources</li>
+        </ul>
+      </aside>
+      <section class="right-section">
+        <nav class="right-nav-section">
+          <button class="top-icon" id="first-icon"><img src="images/list.svg" class="nav-icons"></button>
+          <input type="text" name="search" placeholder="Search for a job, task or resume" class="search-bar">
+          <button class="top-icon" id="second-icon"><img src="images/person.svg" class="nav-icons"></button>
+          <button class="top-icon" id="third-icon"><img src="images/calendar.svg" class="nav-icons"></button>
+          <button class="top-icon" id="forth-icon"><img src="images/dots.svg" class="nav-icons"></button>
+        </nav>
+        <article class="right-title-section">
+          <nav class="flex-right">
+            <button class="title-button" id="first-title-btn"><img src="images/house.svg" class="middle-icons" aria-hidden="true"></button>
+            <button class="title-button" id="second-title-btn"><img src="images/pencil.svg" class="middle-icons" aria-hidden="true"></button>
+            <button class="title-button" id="third-title-btn"><img src="images/ribbon.svg" class="middle-icons" aria-hidden="true"></button>
+            <button class="title-button" id="fourth-title-btn"><img src="images/dot.png" class="green-dot middle-icons">OPEN</button>
+          </nav>
+          <h1>Customer Service Report</h1>
+          <h2><img src="images/map.svg" aria-hidden="true">Denver, Colorado  &middot<a href="link" class="preview-link">Preview this post</a></h2>
+          <nav class="top-links">
+            <ul class="summary-links">
+              <li class="summary-lists">SUMMARY</li>
+              <li class="summary-lists">APPLICANTS</li>
+              <li class="summary-lists">JOB BOARD</li>
+              <li class="summary-lists">INTERVIEWS</li>
+              <li class="summary-lists">ACTIVITIES</li>
+              <li class="summary-lists">BOARDCAST</li>
+              <li class="summary-lists">NOTIFICATIONS</li>
+            </ul>
+          </nav>
+        </article>
+        <section class="right-graph-section">
+          <section class="inline-graph">
+            <article class="pie-graphs">
+              <svg width="30%" height="70%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#64B5B3" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+                <g class="chart-text">
+                  <text x="50%" y="50%" class="chart-number">3,154</text>
+                  <text x="50%" y="50%" class="chart-label">APPLICANTS</text>
+                </g>
+              </svg>
+              <svg width="30%" height="70%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#47A5F1" stroke-width="3" stroke-dasharray="45 55" stroke-dashoffset="0"></circle>
+                <g class="chart-text">
+                  <text x="50%" y="50%" class="chart-number">1,546</text>
+                  <text x="50%" y="50%" class="chart-label">INTERVIEWS</text>
+                </g>
+              </svg>
+              <svg width="30%" height="70%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="75 35" stroke-dashoffset="0"></circle>
+                <g class="chart-text">
+                  <text x="50%" y="50%" class="chart-number">912</text>
+                  <text x="50%" y="50%" class="chart-label">FORWARD</text>
+                </g>
+              </svg>
+              <button class="first-graph-btn">TOTALS&middot Out of 5,321 views</button>
+            </article>
+            <article class="bar-graph">
+              <img class="bar-chart" src="images/bar-chart.png" alt="bar-graph">
+              <section class="graph-buttons">
+                <button class="second-graph-btn">APPLICATION/DAY</button>
+              </section>
+            </article>
+          </section>
+          <section class="bottom-job-section">
+            <article class="middle-job-section">
+              <table>
+                <tr>
+                  <td class="table-title">JOB DESCRIPTION</td>
+                  <td class="table-title"><span class="edit-title"><img src="images/pencil.svg" class="edit" aria-hidden="true">EDIT<span></td>
+                </tr>
+                <tr>
+                  <td>POSITION TITLE</td>
+                  <td>Customer Service Representative</td>
+                </tr>
+                <tr>
+                  <td>LOCATION</td>
+                  <td>San Francisco, CA</td>
+                </tr>
+                <tr>
+                  <td>EMPLOYMENT TYPE</td>
+                  <td>Full Time</td>
+                </tr>
+                <tr>
+                  <td>EXPERIENCE</td>
+                  <td>Mid-level</td>
+                </tr>
+                <tr>
+                  <td>STATUS</td>
+                  <td>Open</td>
+                </tr>
+                <tr>
+                  <td>DESCRIPTION</td>
+                  <td>Developer skillfully captures the spirit and design intent of all comp details. Execution is pixel-perfect and any design decisions left open to interpretation are solved intentionally, are as seamless as if the designer had provided the solution, are handled gracefully, and enhance the overall design.</td>
+                </tr>
+                <tr>
+                  <td>HIRING LEAD</td>
+                  <td>Tim Tizzy</td>
+                </tr>
+                <tr>
+                  <td>APPROVED SALARY</td>
+                  <td>$58,0000</td>
+                </tr>
+              </table>
+            </article>
+            <article class="right-job-section">
+              <nav class="social-links">
+                <ul class="social">
+                  <li class="facebook link-bars"><img src="images/facebook.svg" id="link-icons" alt="facebook logo">Post to Facebook</li>
+                  <li class="twitter link-bars"><img src="images/twitter.svg" id="link-icons" alt="twitter logo">Tweet this job</li>
+                  <li class="linkedin link-bars"><img src="images/link.svg" id="link-icons" alt="linkedin logo">Post to Linkedin</li>
+                </ul>
+              </nav>
+              <section class="bottom-links">
+                <h5 class="link-to-job"><img src="images/earth.svg" class="bottom-right-icons" aria-hidden="true">Link to this Job</h4>
+                <p>The purrr-fect lorem ipsum generator for clients who love their cats and cat memes.</p>
+                <section class="bottom-right-boxes">
+                  <input type="text" name="email" class="external-links" placeholder="http://ngoc-phan.com" aria-label="external links">
+                  <button id="copy-btn">Copy</button>
+                </section>
+                <hr class="botton-right-line">
+                <h5><img src="images/floppy.svg" class="bottom-right-icons" aria-hidden="true">Use the Button Widget</h5>
+                <p>The purrr-fect lorem ipsum generator for clients who love their cats and cat memes.</p>
+                <section class="bottom-right-boxes">
+                  <input type="text" name="email" class="external-links" placeholder="<script type=text/js." aria-label="email">
+                  <button id="copy-btn">Copy</button>
+                </section>
+                <hr>
+                <h5><img src="images/paper-plane.svg" class="bottom-right-icons" aria-hidden="true">Use the Button Widget</h5>
+                <p>The purrr-fect lorem ipsum generator for clients who love their cats and cat memes.</p>
+                <input class="email-input" type="text" name="email" placeholder="timtizzy@gmail.com" aria-label="email">
+              </section>
+            </article>
+          </section>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
